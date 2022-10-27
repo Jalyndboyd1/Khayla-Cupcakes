@@ -17,7 +17,19 @@ function Item({ img, title, price }) {
             padding: '10px'
         }}>
             {/* Title */}
-            <h3>{title}</h3>
+            <div>
+                <h3>{title}</h3>
+                <button style={{
+                    border: 'none',
+                    color: '#000',
+                    background: '#f9ebbe',
+                    padding: '7px',
+                    borderRadius: '40px',
+                    marginTop: '10px',
+                    cursor: 'pointer',
+                    boxShadow: ' 0 4px 8px 0 rgba(0,0,0,0.2)'
+                }}>Add to Cart</button>
+            </div>
             {/* Price */}
             <p>${price}</p>
         </div>
