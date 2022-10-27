@@ -4,14 +4,17 @@ import "./Nav.css"
 function Nav() {
     return (
         <div style={{
-            background: "#fff",
+            background: "#f9ebbe",
             padding: '8px 20px',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'space-between'
+            justifyContent: 'space-between',
         }}>
             {/* left */}
-            <h1>KK's Kupkakes</h1>
+            <h1 style={{
+                fontWeight: 300,
+                color:'#b80026'
+            }}>KK's Kupkakes</h1>
             {/* right */}
             <div style={{
                 width: '8rem',
