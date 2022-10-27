@@ -1,10 +1,14 @@
 import './App.css';
+import Nav from './components/Nav';
 // Main #f9ebbe
 // Secondary #fff
 function App() {
   return (
     <div className="app">
-      Hello Khayla
+      {/* nav */}
+      <Nav />
+      {/* main */}
+      {/* items */}
     </div>
   );
 }

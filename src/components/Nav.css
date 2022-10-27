@@ -1,0 +1,8 @@
+.social__icon {
+    transition: 400ms ease-in-out;
+}
+
+.social__icon:hover {
+  color: #f9ebbe !important;
+  cursor: pointer;
+}
