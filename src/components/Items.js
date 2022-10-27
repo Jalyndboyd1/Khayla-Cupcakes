@@ -1,9 +1,12 @@
 import Item from './Item.js'
 import wave from '../media/wave.png'
+import CheckoutModal from './CheckoutModal.js'
 
 function Items() {
     return (<div style={{
     }}>
+        {/* Cart Icon / Modal */}
+        <CheckoutModal />
         {/* div top */}
         <div style={{
             backgroundImage: `url(${wave})`,
