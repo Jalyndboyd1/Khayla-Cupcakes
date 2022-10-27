@@ -32,7 +32,7 @@ function Items() {
         }}>
             {/* Item Components */}
             <Item title='Super Big Cake' price='25' img='https://media.istockphoto.com/vectors/cooking-baking-hobby-food-preparation-concept-vector-id1257398054?k=20&m=1257398054&s=612x612&w=0&h=UU3zsRNLQAdlhbm6k8tisGnI4W5YO-TOcygqnTicoLc=' />
-            <Item title='Super Big Cake' price='25' img='https://media.istockphoto.com/vectors/cooking-baking-hobby-food-preparation-concept-vector-id1257398054?k=20&m=1257398054&s=612x612&w=0&h=UU3zsRNLQAdlhbm6k8tisGnI4W5YO-TOcygqnTicoLc=' />
+            <Item title='Some Other Big Cake' price='35' img='https://media.istockphoto.com/vectors/cooking-baking-hobby-food-preparation-concept-vector-id1257398054?k=20&m=1257398054&s=612x612&w=0&h=UU3zsRNLQAdlhbm6k8tisGnI4W5YO-TOcygqnTicoLc=' />
             <Item title='Super Big Cake' price='25' img='https://media.istockphoto.com/vectors/cooking-baking-hobby-food-preparation-concept-vector-id1257398054?k=20&m=1257398054&s=612x612&w=0&h=UU3zsRNLQAdlhbm6k8tisGnI4W5YO-TOcygqnTicoLc=' />
             <Item title='Super Big Cake' price='25' img='https://media.istockphoto.com/vectors/cooking-baking-hobby-food-preparation-concept-vector-id1257398054?k=20&m=1257398054&s=612x612&w=0&h=UU3zsRNLQAdlhbm6k8tisGnI4W5YO-TOcygqnTicoLc=' />
             <Item title='Super Big Cake' price='25' img='https://media.istockphoto.com/vectors/cooking-baking-hobby-food-preparation-concept-vector-id1257398054?k=20&m=1257398054&s=612x612&w=0&h=UU3zsRNLQAdlhbm6k8tisGnI4W5YO-TOcygqnTicoLc=' />

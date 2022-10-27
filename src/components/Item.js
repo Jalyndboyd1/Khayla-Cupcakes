@@ -1,4 +1,9 @@
+import { useDispatch } from "react-redux"
+import { addCart } from "../features/counterSlice"
+
+
 function Item({ img, title, price }) {
+    const dispatch = useDispatch()
     return (<div style={{
         maxWidth: '330px',
         backgroundColor: '#fff',
@@ -28,12 +33,11 @@ function Item({ img, title, price }) {
                     marginTop: '10px',
                     cursor: 'pointer',
                     boxShadow: ' 0 4px 8px 0 rgba(0,0,0,0.2)'
-                }}>Add to Cart</button>
+                }} onClick={() => dispatch(addCart({ title: title, price: price }))}>Add to Cart</button>
             </div>
             {/* Price */}
             <p>${price}</p>
         </div>
-
     </div>)
 }
 
